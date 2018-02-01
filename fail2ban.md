@@ -28,13 +28,16 @@ service fail2ban restart
 service ssh restart
 ```
 
-ignoreip：忽略的 IP 清單
+## 設定值
 
-maxretry：登入失敗幾次後封鎖
+* ignoreip：忽略的 IP 清單
+* maxretry：登入失敗幾次後封鎖
+* findtime：在多久時間之內，單位（秒）
+* bantime：封鎖的時間，單位（秒）
 
-findtime：在多久時間之內，單位（秒）
+## 相關指令
 
-bantime：封鎖的時間，單位（秒）
+* fail2ban-client status：查詢 fail2ban 狀態
 
 
 
