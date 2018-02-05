@@ -39,6 +39,8 @@ service ssh restart
 
 * fail2ban-client status：查詢 fail2ban 狀態
 * fail2ban-client status ssh-iptables：查詢 ssh-iptables 的狀態
+* iptables -L f2b-sshd -v -n --line-numbers：列出被封鎖 ip 的 line-numbers
+* iptables -D f2b-sshd 1：手動移除被封鎖的 ip
 
 
 
