@@ -38,6 +38,7 @@ service ssh restart
 ## 相關指令
 
 * fail2ban-client status：查詢 fail2ban 狀態
+* fail2ban-client status ssh-iptables：查詢 ssh-iptables 的狀態
 
 
 
