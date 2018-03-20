@@ -12,5 +12,9 @@
 
 /var/log/lastlog：記錄系統上所有帳號最近一次登入系統時的相關資訊。
 
+/var/log/maillog 或 /var/log/mail/\*：記錄郵件的往來資訊。
+
 /var/log/messages：整體系統訊息記錄，幾乎系統發生的錯誤訊息都會記錄在這個檔案中。
+
+/var/log/user.log：記錄所有 user 執行的指令有呼叫系統功能所產生的某些訊息。
 
