@@ -6,5 +6,11 @@
 
 /var/log/dmesg：系統在開機時核心偵測過程所產生的各項記錄。
 
+/var/log/dpkg.log：安裝或 dpkg 命令清除套件的記錄。
+
+/var/log/kern.log：內核產生的記錄。
+
+/var/log/lastlog：記錄系統上所有帳號最近一次登入系統時的相關資訊。
+
 /var/log/messages：整體系統訊息記錄，幾乎系統發生的錯誤訊息都會記錄在這個檔案中。
 
