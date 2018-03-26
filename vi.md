@@ -35,7 +35,7 @@ alias vi="vim"
 
 ## 環境設定
 
-* :set nu：顯示行號。
+* :set nu：顯示行號
 * :set nonu：隱藏行號
 * :set ai：自動縮排
 * :set noai：取消自動縮排
