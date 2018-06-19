@@ -25,6 +25,7 @@ alias vi="vim"
 * G：移到檔案的最後一列
 * nG：移動到這個檔案的第 n 行
 * n&lt;Enter&gt;：游標向下移動 n 行
+* u：復原前一個動作
 
 ## 編輯模式（insert mode）
 
